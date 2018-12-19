@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Title="Чемпионы" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyLoLApp.Views.ChampionsPage" BackgroundColor="#1e1e2f">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="champList" HasUnevenRows="True" ItemsSource="{Binding Champions}" ItemSelected="GetChampInfo" 
+                      BackgroundColor="#1e1e2f">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding image}" Text="{Binding name}" Detail="{Binding title, StringFormat='{0}'}" TextColor="White"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

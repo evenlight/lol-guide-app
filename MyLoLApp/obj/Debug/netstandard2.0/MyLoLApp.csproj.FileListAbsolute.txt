@@ -1,0 +1,17 @@
+/Users/des/Projects/MyLoLApp/MyLoLApp/bin/Debug/netstandard2.0/MyLoLApp.deps.json
+/Users/des/Projects/MyLoLApp/MyLoLApp/bin/Debug/netstandard2.0/MyLoLApp.dll
+/Users/des/Projects/MyLoLApp/MyLoLApp/bin/Debug/netstandard2.0/MyLoLApp.pdb
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/ChampionsPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/ChampionViewPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/GuidesPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/Views/ReplaysPage.xaml.g.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.csproj.CoreCompileInputs.cache
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.AssemblyInfoInputs.cache
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.AssemblyInfo.cs
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.dll
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.pdb
+/Users/des/Projects/MyLoLApp/MyLoLApp/obj/Debug/netstandard2.0/MyLoLApp.csprojAssemblyReference.cache

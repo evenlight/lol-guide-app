@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyLoLApp.Views.ChampionViewPage" BackgroundColor="#525f7f">
+   <ContentPage.Content>
+      <ScrollView>
+         <StackLayout>
+            <Image x:Name="ChampImage" Aspect="AspectFill" />
+            <Label x:Name="ChampName" FontSize="40" FontAttributes="Bold" Margin="10" TextColor="White" />
+            <Label x:Name="ChampDescription" BindingContext="lore" Margin="10" TextColor="White" />
+            <Label FontSize="40" FontAttributes="Bold" Margin="10" Text="Умения" TextColor="White" />
+            <ListView HasUnevenRows="True" ItemsSource="{Binding ChampionSpells}" SelectionMode="None" BackgroundColor="#525f7f">
+               <ListView.ItemTemplate>
+                  <DataTemplate>
+                     <ViewCell>
+                        <StackLayout Orientation="Horizontal" Margin="10">
+                           <Image Source="{Binding image}" WidthRequest="65" HeightRequest="80" />
+                           <StackLayout Margin="10">
+                              <Label Text="{Binding name} " FontSize="18" FontAttributes="Bold" TextColor="White" />
+                              <Label Text="{Binding description}" TextColor="White" />
+                           </StackLayout>
+                        </StackLayout>
+                     </ViewCell>
+                  </DataTemplate>
+               </ListView.ItemTemplate>
+            </ListView>
+         </StackLayout>
+      </ScrollView>
+   </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{09DCCE16-8B17-4406-875B-2E03AAB843A9}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{89a4fe7c-635d-49c9-8d8c-5cd363c0d68d}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyLoLApp.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>MyLoLApp.iOS</AssemblyName>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer: john@ravelband.info (JFBHZKLQAL)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer: drevs_es@icloud.com (JFBHZKLQAL)</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <BundleResource Include="Resources\tab_about.png" />
+    <BundleResource Include="Resources\tab_about%402x.png" />
+    <BundleResource Include="Resources\tab_about%403x.png" />
+    <BundleResource Include="Resources\tab_feed.png" />
+    <BundleResource Include="Resources\tab_feed%402x.png" />
+    <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\xamarin_logo.png" />
+    <BundleResource Include="Resources\xamarin_logo%402x.png" />
+    <BundleResource Include="Resources\xamarin_logo%403x.png" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\keyboard.png" />
+    <BundleResource Include="Resources\game_controller%403x.png" />
+    <BundleResource Include="Resources\league-of-legends-1024.png" />
+    <BundleResource Include="Resources\league-of-legends-20.png" />
+    <BundleResource Include="Resources\league-of-legends-20%402x.png" />
+    <BundleResource Include="Resources\league-of-legends-20%403x.png" />
+    <BundleResource Include="Resources\league-of-legends-29.png" />
+    <BundleResource Include="Resources\league-of-legends-29%402x.png" />
+    <BundleResource Include="Resources\league-of-legends-29%403x.png" />
+    <BundleResource Include="Resources\league-of-legends-40.png" />
+    <BundleResource Include="Resources\league-of-legends-40%402x.png" />
+    <BundleResource Include="Resources\league-of-legends-40%403x.png" />
+    <BundleResource Include="Resources\league-of-legends-60%402x.png" />
+    <BundleResource Include="Resources\league-of-legends-60%403x.png" />
+    <BundleResource Include="Resources\league-of-legends-76.png" />
+    <BundleResource Include="Resources\league-of-legends-76%402x.png" />
+    <BundleResource Include="Resources\league-of-legends-83.5%402x.png" />
+    <BundleResource Include="Resources\user_male%403x.png" />
+    <BundleResource Include="Resources\sword.png" />
+    <BundleResource Include="Resources\champion.png" />
+    <BundleResource Include="Resources\score.png" />
+    <BundleResource Include="Resources\6111.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\league-of-legends-1024.png" />
+    <BundleResource Include="Resources\league-of-legends.png" />
+    <BundleResource Include="Resources\launch-icon.jpg" />
+    <BundleResource Include="Resources\launch-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-20%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-20%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\launch-icon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\MyLoLApp\MyLoLApp.csproj">
+      <Project>{D82C99DD-E3C0-4756-82FE-29E41ED42E01}</Project>
+      <Name>MyLoLApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
